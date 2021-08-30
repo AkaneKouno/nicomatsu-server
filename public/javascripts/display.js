@@ -23,7 +23,7 @@ socket.on('reconnect', () =>{
   console.log(roomName + 'に再接続');
 });
 
-
+//コメント機能なのでいらない
 // コメント受信時にniconico.jsのhandleCommentを呼ぶ
 socket.on('comment', function(msg){
     handleComment (msg) ;
